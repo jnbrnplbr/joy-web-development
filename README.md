@@ -7,7 +7,7 @@
 
 3. Then click "Commit"
 
-4. open ``git bash`` and run - ``eval "$(ssh-agent -s)``
+4. open ``git bash`` and run - ``eval "$(ssh-agent -s)"``
 
 5. run ``ssh-add ~/.ssh/joydevmode`` then type your passphrase which is ``noobuser23``
 
