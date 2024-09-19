@@ -1,9 +1,0 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>curriculum</title>
-</head>
-<body>
-<h1>curriculum eme</h1>
-</body>
-</html>
