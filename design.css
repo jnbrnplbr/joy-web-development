@@ -8,7 +8,7 @@
 }
 body
 {
-    background: rgba(255, 182, 193, 0.819);
+    background: rgba(255, 198, 182, 0.959);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@ body
     width: 100%;
     max-width: 1000px;
     min-height: 1000px;
-    background: #fff;
+    background: #ffffffbe;
     margin: 50px;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -29,7 +29,7 @@ body
 .container .left_side
 {
     position: relative;
-    background: rgb(232, 99, 121);
+    background: rgba(232, 99, 121, 0.925);
     padding: 40px;
 }
 .profileText
@@ -70,14 +70,42 @@ body
 }
 .profileText h2 span
 {
-    font-size: 0.8em;
-    font-weight: 300;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.5em;
+    font-weight: 400;
 }
-
-
-.container .right_side
+.ContactInfo
+{
+    padding-top: 40px;
+}
+.title
+{
+    color:#010101;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.ContactInfo ul
 {
     position: relative;
-    background: #fff;
-    padding: 40px;
-} 
+}
+.ContactInfo ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.ContainerInfo ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+.ContactInfo ul li span
+{
+    color:#fff;
+    font-weight:
+}
