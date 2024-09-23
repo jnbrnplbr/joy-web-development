@@ -1,5 +1,4 @@
 
-
 {
     margin: 0;
     padding: 0;
@@ -107,5 +106,39 @@ body
 .ContactInfo ul li span
 {
     color:#fff;
-    font-weight:
+    font-weight: 300;  
 }
+.contactInfo.education li
+{
+    margin-bottom: 10px;
+} 
+.contactInfo.education h4
+{
+    color: white;
+    font-weight: 500px;
+}
+.contactInfo.education h5
+{
+    color: white;
+    font-weight: 400px;
+}
+.contactInfo.education h5
+{
+    color: white;
+    font-weight: 400px;
+}
+.about 
+{
+    margin-bottom: 50px;
+}
+.about:last-child
+{
+    margin-bottom: 0;
+}
+.title2
+{
+    color:#0830fa;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
