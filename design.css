@@ -37,8 +37,8 @@ body
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 20px;
-    border-bottom: 1px solid rgba(255,255,255,0.2);
+    padding-bottom: 0.1px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.982);
 }
 .profileText .imgbx
 {
@@ -76,11 +76,11 @@ body
 }
 .ContactInfo
 {
-    padding-top: 40px;
+    padding-top: 10px;
 }
 .title
 {
-    color:#010101;
+    color:#f9f7f7;
     font-weight: 500;
     letter-spacing: 1px;
     margin-bottom: 10px;
@@ -101,18 +101,17 @@ body
     display: inline-block;
     width: 30px;
     font-size: 18px;
-    color: #03a9f4;
 }
 .ContactInfo ul li span
 {
     color:#fff;
     font-weight: 300;  
 }
-.contactInfo.education li
+.contactInfo.EDUCATION h4
 {
-    margin-bottom: 10px;
+    margin-bottom: 3px;
 } 
-.contactInfo.education h4
+.contactInfo.EDUCATION h4
 {
     color: white;
     font-weight: 500px;
@@ -137,8 +136,13 @@ body
 }
 .title2
 {
-    color:#0830fa;
+    color:#080809;
+    text-align: center;
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
-
+.title2 p
+{
+    text-align: justify;
+    text-justify: inter-word;
+}
