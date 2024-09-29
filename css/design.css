@@ -1,10 +1,4 @@
 
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'roboto';
-}
 body
 {
     background: rgba(182, 255, 251, 0.959);
@@ -13,6 +7,7 @@ body
     align-items: center;
     min-height: 100vh;
 }
+
 .container
 {
     position: relative;
@@ -25,13 +20,15 @@ body
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0,0,0,0.1);
 }
-.container .left_side
+
+.container .left-side
 {
     position: relative;
     background: #be7faaec;
     padding: 40px;
 }
-.profileText
+
+.profile-text
 {
     position: relative;
     display: flex;
@@ -40,7 +37,8 @@ body
     padding-bottom: 0.1px;
     border-bottom: 3px solid rgba(255, 255, 255, 0.982);
 }
-.profileText .imgbx
+
+.profile-text .imgbx
 {
     position: relative;
     width: 200px;
@@ -48,7 +46,8 @@ body
     border-radius: 50%;
     overflow: hidden;
 }
-.profileText .imgbx img
+
+.profile-text .imgbx img
 {
     position: absolute;
     top: 0;
@@ -57,7 +56,8 @@ body
     height: 100%;
     object-fit: cover;
 }
-.profileText h2
+
+.profile-text h2
 {
     color: #fff;
     font-size: 1.5em;
@@ -67,14 +67,17 @@ body
     font-weight: 600;
     line-height: 1.4em; 
 }
-.profileText h2 span
+
+.profile-text h2 span
 {
     color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.5em;
     font-weight: 400;
 }
-.ContactInfo.lang .percent
+
+
+.contact-info .lang .percent
 {
     position: relative;
     width: 100%;
@@ -82,36 +85,41 @@ body
     background:rgba(235, 11, 235, 0.959);
     display: block;
     margin-top: 5px;
-}   
-.ContactInfo.lang .percent div
+}  
+
+.contact-info .lang .percent div
 {
-position: absolute;
-top: 0;
-left: 0;
-height: 100%;
-background:rgba(3, 6, 186, 0.959);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background:rgba(3, 6, 186, 0.959);
 }
-.right_Side
+
+.right-side
 {
     padding: 20px;
     overflow-wrap: break-word;
     max-width: 100%;
 }
-.right_Side .about
+
+.right-side .about
 {
     margin-bottom: 10px;
 }
     
-.right_Side h2
+.right-side h2
 {
     text-align: center;
     margin-bottom: 10px;
 }
-.right_Side h4
+
+.right-side h4
 {
     margin-bottom: 5px;
 }
-.right_Side p
+
+.right-side p
 {
     text-indent: 0px;
     margin: 0 0 10px;
