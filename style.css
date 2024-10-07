@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* NAV BAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    height: 80px;
+}
+
+nav .left {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: rgb(8, 8, 8);
+    border-radius: 12px;
+    padding: 10px;
+    display: in-line-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav .left:hover {
+    cursor: pointer;
+    background-color: #ff0000;
+}
+
+nav .right {
+    display: flex;
+    gap: 20px;
+    color: rgb(20, 9, 9);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+nav .right span{
+    cursor: pointer;
+    padding: 10px;
+    color: rgb(20, 9, 9);
+    transition: color 0.3s ease;
+}
+
+nav .right span:hover {
+    color: red;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.switch label {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(14, 12, 12);
+    border-radius: 20px;
+    transition: background-color 0.4s;
+}
+
+.switch label:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.4s;
+}
+
+.switch input:checked + label {
+    background-color: red;
+}
+
+.switch input:checked + label:before {
+    transform: translateX(30px);
+}
+
+/* SECTION 1: Description */
+.description {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 50px;
+    margin: 50px 0;
+}
+
+.description .text h2 {
+    font-family:'Roboto Slab';
+    font-weight: 200;
+    font-size: 50px;
+    color: rgb(255, 140, 0);
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.description .text p {
+    font-family: 'Sans-serif';
+    font-size: 40px;
+    color: black;
+
+}
+.profile img {
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    margin-left: 200px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-right: 700px;
+    
+}
+
+.learn-more {
+    background-color: black;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;    
+}
+
+.learn-more:hover {
+    background-color: red;
+}
+
+/* Dark Mode styles */
+body {
+    background-color: rgb(230, 221, 221);
+}
+
+nav {
+    background-color: rgb(197, 170, 235);
+}
+
+nav.dark-mode {
+    background-color: aquamarine;
+}
+
+/* SECTION 2: ABOUT ME */
+
+.about-me {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-top: 150px;
+    margin-bottom: 500px;
+}
