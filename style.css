@@ -175,6 +175,7 @@ nav {
 .about-me .text {
     width: 50%;
     text-align: justify;
+    text-indent: 40px;
 }
 
 .about-me h2 {
@@ -217,7 +218,7 @@ nav {
 .projects {
     text-align: center;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
 }
 
 .projects h2 {
@@ -261,4 +262,92 @@ nav {
 
 .project img:hover {
     transform: scale(1.05);
+}
+
+.view-projects {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.view-projects p {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.view-projects p:hover {
+    color: red;
+}
+
+.say-hello {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    height: 250px;
+}
+
+.square {
+    width: 100px;
+    height: 40px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.square:hover {
+    background-color: blueviolet;
+}
+
+.square p {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 0;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.square:hover p {
+    color: white;
+}
+
+.solid-line {
+    height: 2px;
+    background-color: black;
+    margin-top: 20px;
+    width: 500px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 20px;
+}
+
+.social-icons .icon {
+    font-size: 50px;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.social-icons .icon:hover {
+    color:blue;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 300px;
+    padding: 20px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color:rgb(13, 13, 13);
 }
