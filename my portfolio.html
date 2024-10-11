@@ -10,7 +10,6 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400..700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="style.css">
-
     </head>
 
     <title>My Portfolio</title>
@@ -100,5 +99,30 @@
                     Copyright © 2024. All rights reserved. Made by Joy Alinday</p>
                 </div>
          </main>
+
+         <!-- For light/dark mode-->
+
+         <script>
+            const toggleSwitch = document.getElementById('toggle');
+            const body = document.body;
+
+            const currentTheme = localStorage.getItem('theme');
+            if (currentTheme) {
+                body.classList.add(currentTheme);
+                if (currentTheme === 'dark-mode') {
+                    toggleSwitch.checked = true;
+                }
+            }
+
+            toggleSwitch.addEventListener('change', function() {
+                if (this.checked) {
+                    body.classList.add('dark-mode');
+                    localStorage.setItem('theme', 'dark-mode');
+                } else {
+                    body.classList.remove('dark-mode');
+                    localStorage.setItem('theme', 'light-mode');
+                }
+            });
+         </script>
     </body>
 </html>
